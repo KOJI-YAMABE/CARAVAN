@@ -27,3 +27,4 @@ class BlogsController < ApplicationController
   	params.require(:blog).permit(:title, :category, :body)
   end
 end
+
